@@ -80,7 +80,7 @@ private:
       quint16 mport=3333;
       QTcpSocket *mSocket;
 
-
+Ui::Widget *Widget;
 
 };
 

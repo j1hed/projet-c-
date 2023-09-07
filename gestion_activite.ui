@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tab">
     <attribute name="title">
@@ -1966,12 +1966,12 @@ QCheckBox::indicator:disabled, QRadioButton::indicator:disabled
      </item>
      <item>
       <property name="text">
-       <string>Musique </string>
+       <string>Musique</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Theatre </string>
+       <string>Theatre</string>
       </property>
      </item>
     </widget>

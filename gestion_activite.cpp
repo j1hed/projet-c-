@@ -366,6 +366,7 @@ void gestion_activite::on_statistique_clicked()
         QString b = QString("Musique  " + QString::number((dispo * 100) / total, 'f', 2) + "%");
         QString c = QString("Theatre  " + QString::number((dispo2 * 100) / total, 'f', 2) + "%");
 
+
         QPieSeries *series = new QPieSeries();
         series->append(a, dispo1);
         series->append(b, dispo);
@@ -620,6 +621,7 @@ void gestion_activite::on_tableView_doubleClicked(const QModelIndex &index)
 
 void gestion_activite::on_CHATBOX_clicked()
 {
-
+    QWidget * Widget = new QWidget();
+        Widget->show();
 
 }
